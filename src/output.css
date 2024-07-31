@@ -554,6 +554,44 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.float-start {
+  float: inline-start;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -623,6 +661,14 @@ video {
   gap: 3rem;
 }
 
+.gap-11 {
+  gap: 2.75rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
 .bg-\[\] {
   background-color: ;
 }
@@ -662,4 +708,44 @@ video {
 
 .font-medium {
   font-weight: 500;
+}
+
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
+  }
+
+  .md\:inline {
+    display: inline;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:hidden {
+    display: none;
+  }
 }
