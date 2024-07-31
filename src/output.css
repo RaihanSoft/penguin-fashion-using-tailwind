@@ -868,6 +868,10 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .font-Bebas{
   font-family: Bebas Neue;
 }
@@ -979,6 +983,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@media (min-width: 640px){
+  .sm\:text-start{
+    text-align: start;
+  }
+}
+
 @media (min-width: 768px){
   .md\:block{
     display: block;
@@ -1011,5 +1021,11 @@ video {
 
   .md\:leading-\[96px\]{
     line-height: 96px;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:flex-row{
+    flex-direction: row;
   }
 }
